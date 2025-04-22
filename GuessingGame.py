@@ -39,10 +39,10 @@ def play_game():
             won = True
             break
         else:
-            print(f"{result}. {attempts_left} attempts remaining try again!")
+            print(f"{result}. \n{attempts_left} attempts remaining try again!")
 
   if not won:
-        print(f"Sorry, you ran out of attempts! The secret number is {secret_number}.")
+        print(f"Sorry, you ran out of attempts! \nThe secret number is {secret_number}.")
 
 if __name__ == "__main__":
     print("Welcome to the Number Guessing Game!")
